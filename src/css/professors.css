@@ -1,0 +1,123 @@
+.selo-usp {
+	width: 153px;
+	height: 164px;
+}
+
+.professors {
+	font-family: Raleway;
+	color: rgb(149, 149, 149);
+}
+
+.professors-section-info {
+	display: flex;
+	margin: 0 -1.8em;
+	flex-direction: row;
+}
+
+.professors .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+	min-height: 261px;
+}
+
+.professors .img-container {
+	margin-top: -2em;
+}
+
+.professors .container .img-container img {
+	width: 153px;
+	height: 164px;
+}
+
+.professors-title {
+	transform: scale(0.69);
+	transform-origin: 0 0;
+	line-height: 38px;
+	font-size: 38px;
+}
+
+.professors-title span:nth-child(1) {
+	font-weight: 500;
+}
+
+.professors-title span:nth-child(2) {
+	font-weight: 300;
+}
+
+.professors-subtitle {
+	margin-top: -1em;
+	transform: scale(0.71);
+	transform-origin: 0 0;
+	line-height: 26px;
+}
+
+.professors-subtitle span {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.slick-slider {
+	background-color: aqua;
+	min-width: 0;
+	min-height: 200px;
+	max-width: 100%;
+}
+
+.slick-slider button::before {
+	color: black;
+}
+
+@media only screen and (max-width: 600px) {
+	.slick-next,
+	.slick-prev {
+		top: 110%;
+	}
+
+	.slick-prev {
+		left: 40%;
+	}
+
+	.slick-next {
+		right: 40%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.selo-usp {
+		width: 249px;
+		height: 269px;
+	}
+
+	.professors .container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.professors .container .text-container {
+		padding: 2em 0;
+		margin-left: -1em;
+	}
+
+	.professors-section-info {
+		min-width: 40%;
+	}
+
+	.professors-title,
+	.professors-subtitle {
+		transform: none;
+	}
+
+	.professors-subtitle {
+		margin-top: 1.4em;
+		line-height: 22px;
+	}
+
+	.professors .container .img-container img {
+		width: 249px;
+		height: 269px;
+	}
+}

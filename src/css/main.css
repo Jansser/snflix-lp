@@ -15,7 +15,6 @@ main {
 	background-position: right center;
 	background-size: cover;
 	position: relative;
-	background-image: url("../images/tami-bg-mobile.png");
 	color: white;
 }
 
@@ -100,7 +99,7 @@ main > div {
 
 @media only screen and (min-width: 600px) {
 	main {
-		background-image: url("../images/tami-bg-desktop.jpg");
+		background-color: #e89513;
 		background-repeat: no-repeat;
 		background-position: left center;
 		background-size: cover;

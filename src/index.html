@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -13,28 +13,126 @@
 			name="keywords"
 			content="sanarflix, medicina, estudante de medicina, faculdade de medicina, editora sanar, sanar"
 		/>
+		<title>SanarFlix: Assine aqui!</title>
 
+		<!-- build:css css/main.css -->
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+		<!-- endbuild -->
+
+		<!-- build:css css/sections.css -->
 		<link rel="stylesheet" type="text/css" href="css/benefits.css" />
+		<link rel="stylesheet" type="text/css" href="css/professors.css" />
 		<link rel="stylesheet" type="text/css" href="css/medicina-resumida.css" />
 		<link rel="stylesheet" type="text/css" href="css/plans.css" />
 		<link rel="stylesheet" type="text/css" href="css/about.css" />
 		<link rel="stylesheet" type="text/css" href="css/faq.css" />
 		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<!-- endbuild -->
+		<style>
+			@font-face {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 300;
+				src: local("Montserrat Light"), local("Montserrat-Light"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2)
+						format("woff2"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_cJD3gnD-A.woff)
+						format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 600;
+				src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2)
+						format("woff2"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_bZF3gnD-A.woff)
+						format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 700;
+				src: local("Montserrat Bold"), local("Montserrat-Bold"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2)
+						format("woff2"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_dJE3gnD-A.woff)
+						format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: 900;
+				src: local("Montserrat Black"), local("Montserrat-Black"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2)
+						format("woff2"),
+					url(fonts/montserrat/v13/JTURjIg1_i6t8kCHKm45_epG3gnD-A.woff)
+						format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: Raleway;
+				font-style: normal;
+				font-weight: 300;
+				src: local("Raleway Light"), local("Raleway-Light"),
+					url(fonts/raleway/v13/1Ptrg8zYS_SKggPNwIYqWqZPAA.woff2)
+						format("woff2"),
+					url(fonts/raleway/v13/1Ptrg8zYS_SKggPNwIYqWqZPBg.woff) format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: Raleway;
+				font-style: normal;
+				font-weight: 500;
+				src: local("Raleway Medium"), local("Raleway-Medium"),
+					url(fonts/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqZPAA.woff2)
+						format("woff2"),
+					url(fonts/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqZPBg.woff) format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: Raleway;
+				font-style: normal;
+				font-weight: 700;
+				src: local("Raleway Bold"), local("Raleway-Bold"),
+					url(fonts/raleway/v13/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2)
+						format("woff2"),
+					url(fonts/raleway/v13/1Ptrg8zYS_SKggPNwJYtWqZPBg.woff) format("woff");
+				font-display: swap;
+			}
+			@font-face {
+				font-family: "Droid Sans";
+				font-style: normal;
+				font-weight: 700;
+				src: local("Droid Sans Bold"), local("DroidSans-Bold"),
+					url(fonts/droidsans/v9/SlGWmQWMvZQIdix7AFxXmMh3eDs1Zw.woff2)
+						format("woff2"),
+					url(fonts/droidsans/v9/SlGWmQWMvZQIdix7AFxXmMh3eDs1YQ.woff)
+						format("woff");
+				font-display: swap;
+			}
+		</style>
 	</head>
 	<body>
 		<!-- MAIN -->
-		<main>
+		<main
+			id="main-section"
+			class="lazy"
+			data-bg="url(images/tami-bg-desktop-min.jpg)"
+		>
 			<div class="color-overlay-effect"></div>
 
 			<div>
 				<a href="https://www.sanarflix.com.br" target="_self">
 					<img
+						class="lazy"
+						alt=""
 						class="logo"
-						src="../images/sanarflix-vertical.svg"
-						alt="sanarFlix"
+						data-src="../images/sanarflix-vertical.svg"
 					/>
 				</a>
 
@@ -51,8 +149,8 @@
 					</p>
 					<p class="headline-subtitle headline-pricing">
 						Planos a partir de&nbsp;
-						<span class="headline-price">R$ 19,50</span>&nbsp;
-						<span class="headline-price-period">/ Por mês.</span>
+						<span class="headline-price">R$ 19,50</span>
+						<span class="headline-price-period"> / Por mês.</span>
 					</p>
 				</div>
 
@@ -95,7 +193,7 @@
 				<div class="benefits-list">
 					<div class="benefit">
 						<div class="benfit-image-container">
-							<img src="../images/e-course.svg" alt="" />
+							<img class="lazy" data-src="../images/e-course.svg" alt="" />
 						</div>
 						<div>
 							<div class="benefit-title-wrapper">
@@ -130,7 +228,7 @@
 					</div>
 					<div class="benefit">
 						<div class="benfit-image-container">
-							<img src="../images/quiz.svg" alt="" />
+							<img class="lazy" data-src="../images/quiz.svg" alt="" />
 						</div>
 						<div>
 							<div class="benefit-title-wrapper">
@@ -148,7 +246,7 @@
 					</div>
 					<div class="benefit">
 						<div class="benfit-image-container">
-							<img src="../images/resume.svg" alt="" />
+							<img class="lazy" data-src="../images/resume.svg" alt="" />
 						</div>
 						<div>
 							<div class="benefit-title-wrapper">
@@ -166,7 +264,7 @@
 					</div>
 					<div class="benefit">
 						<div class="benfit-image-container">
-							<img src="../images/lesson.svg" alt="" />
+							<img class="lazy" data-src="../images/lesson.svg" alt="" />
 						</div>
 						<div>
 							<div class="benefit-title-wrapper">
@@ -184,7 +282,7 @@
 					</div>
 					<div class="benefit">
 						<div class="benfit-image-container">
-							<img src="../images/mind-map.svg" alt="" />
+							<img class="lazy" data-src="../images/mind-map.svg" alt="" />
 						</div>
 						<div>
 							<div class="benefit-title-wrapper">
@@ -201,7 +299,7 @@
 					</div>
 					<div class="benefit">
 						<div class="benfit-image-container">
-							<img src="../images/article.svg" alt="" />
+							<img class="lazy" data-src="../images/article.svg" alt="" />
 						</div>
 						<div>
 							<div class="benefit-title-wrapper">
@@ -221,12 +319,42 @@
 			</div>
 		</section>
 
+		<section class="professors">
+			<div class="container">
+				<div class="professors-section-info">
+					<div class="img-container">
+						<img
+							class="lazy"
+							data-src="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/7e528818-selo-usp_04h04o04904k003000001.png"
+							alt=""
+							srcet="
+									//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/7e528818-selo-usp_04h04o04904k003000001.png 1x, 
+									//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/7e528818-selo-usp_06x07906l073005000001.png 2x
+								"
+						/>
+					</div>
+
+					<div class="text-container">
+						<div class="professors-title">
+							<span>Professores padrão</span> <span>USP</span>
+						</div>
+						<div class="professors-subtitle">
+							<span>
+								As melhores aulas, <br />
+								de onde você estiver.
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- MEDICINA RESUMIDA -->
 		<section class="medicina-resumida">
 			<img
 				alt=""
-				class="medicina-resumida-logo"
-				src="images/medicina-resumida-logo.svg"
+				class="lazy medicina-resumida-logo"
+				data-src="images/medicina-resumida-logo.svg"
 			/>
 
 			<div class="medicina-resumida-text">
@@ -237,7 +365,8 @@
 			<img
 				class="medicina-resumida-photo"
 				alt=""
-				src="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/38c69a75-0mr-pessoal-coloridosmall-1_08w05y08w05y000000001.png"
+				class="lazy"
+				data-src="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/38c69a75-0mr-pessoal-coloridosmall-1_08w05y08w05y000000001.png"
 				data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/38c69a75-0mr-pessoal-coloridosmall-1_0go0b40go0b4000000001.png"
 				data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/38c69a75-0mr-pessoal-coloridosmall-1_08w05y08w05y000000001.png"
 				data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/38c69a75-0mr-pessoal-coloridosmall-1_0go0b40go0b4000000001.png"
@@ -246,7 +375,7 @@
 		</section>
 
 		<!-- PLANS -->
-		<section class="plans-section">
+		<section id="bg-plan-section" class="lazy plans-section">
 			<div class="container">
 				<div class="plans-title">
 					<p>Fizemos os melhores planos para você.</p>
@@ -257,54 +386,60 @@
 						<div class="plan-feature">
 							<img
 								alt=""
-								src="images/green-tick.png"
-								width="{20}"
-								height="{20}"
+								class="lazy"
+								data-src="images/green-tick.png"
+								width="20"
+								height="20"
 							/>
 							<span>Vídeo-aulas</span>
 						</div>
 						<div class="plan-feature">
 							<img
 								alt=""
-								src="images/green-tick.png"
-								width="{20}"
-								height="{20}"
+								class="lazy"
+								data-src="images/green-tick.png"
+								width="20"
+								height="20"
 							/>
 							<span>Mapas mentais</span>
 						</div>
 						<div class="plan-feature">
 							<img
 								alt=""
-								src="images/green-tick.png"
-								width="{20}"
-								height="{20}"
+								class="lazy"
+								data-src="images/green-tick.png"
+								width="20"
+								height="20"
 							/>
 							<span>Questões comentadas</span>
 						</div>
 						<div class="plan-feature">
 							<img
 								alt=""
-								src="images/green-tick.png"
-								width="{20}"
-								height="{20}"
+								class="lazy"
+								data-src="images/green-tick.png"
+								width="20"
+								height="20"
 							/>
 							<span>Resumos</span>
 						</div>
 						<div class="plan-feature">
 							<img
 								alt=""
-								src="images/green-tick.png"
-								width="{20}"
-								height="{20}"
+								class="lazy"
+								data-src="images/green-tick.png"
+								width="20"
+								height="20"
 							/>
 							<span>Fluxogramass</span>
 						</div>
 						<div class="plan-feature">
 							<img
 								alt=""
-								src="images/green-tick.png"
-								width="{20}"
-								height="{20}"
+								class="lazy"
+								data-src="images/green-tick.png"
+								width="20"
+								height="20"
 							/>
 							<span>Cancele quando quiser</span>
 						</div>
@@ -465,7 +600,8 @@
 		<section class="about">
 			<div class="container">
 				<img
-					src="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/5864947d-sanar-branca_07n02p07n02p000000001.png"
+					class="lazy"
+					data-src="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/5864947d-sanar-branca_07n02p07n02p000000001.png"
 					alt=""
 					data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/5864947d-sanar-branca_07n02p07n02p000000001.png"
 					data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/www.sanarflix.com.br/assine/5864947d-sanar-branca_08w03508w035000000001.png"
@@ -497,13 +633,23 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="footer-logo">
-					<img src="../images/sanarflix-logo-II.png" width="160" height="60" />
+					<img
+						alt=""
+						class="lazy"
+						data-src="../images/sanarflix-logo-II.png"
+						width="160"
+						height="60"
+					/>
 				</div>
 
 				<div class="social-media-container">
 					<div class="social-media">
 						<a href="https://www.facebook.com/medicinaresumida/">
-							<img src="images/facebook.png" alt="Facebook Medicina Resumida" />
+							<img
+								class="lazy"
+								data-src="images/facebook.png"
+								alt="Facebook Medicina Resumida"
+							/>
 						</a>
 						<p class="social-media-info">+ 77 mil</p>
 					</div>
@@ -511,7 +657,8 @@
 					<div class="social-media">
 						<a href="https://www.instagram.com/sanarflix.med/">
 							<img
-								src="images/instagram.png"
+								class="lazy"
+								data-src="images/instagram.png"
 								alt="Instagram Medicina Resumida"
 							/>
 						</a>
@@ -520,7 +667,11 @@
 
 					<div class="social-media">
 						<a href="https://www.youtube.com/channel/UCE0KRm8m9_ki8MrMYGyjpAw">
-							<img src="images/youtube.png" alt="Youtube Medicina Resumida" />
+							<img
+								class="lazy"
+								data-src="images/youtube.png"
+								alt="Youtube Medicina Resumida"
+							/>
 						</a>
 						<p class="social-media-info">+ 200 mil</p>
 					</div>
@@ -554,5 +705,23 @@
 				</p>
 			</div>
 		</footer>
+		<script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script>
+		<script async>
+			window.onload = function() {
+				const width = window.innerWidth;
+
+				if (width < 600) {
+					document.getElementById("main-section").dataset.bg =
+						"url(images/tami-bg-mobile.png)";
+				} else {
+					document.getElementById("bg-plan-section").dataset.bg =
+						"url(images/vicente-bg-min.jpg)";
+				}
+
+				lazyLoadInstance = new LazyLoad({
+					elements_selector: ".lazy",
+				});
+			};
+		</script>
 	</body>
 </html>
