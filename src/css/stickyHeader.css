@@ -1,0 +1,110 @@
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeOut {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.sticky-header {
+	display: none;
+	background: rgba(96, 15, 48, 1);
+	height: 63px;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	color: #fff;
+}
+
+.sticky-header .container > a > img {
+	width: 41px;
+	height: 29px;
+}
+
+.sticky-header .text {
+	display: none;
+}
+
+.sticky-header .container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0 2em;
+}
+
+.sticky-header .container > a,
+.sticky-header .container > div {
+	margin-right: 0;
+}
+
+@media only screen and (min-width: 600px) {
+	.sticky-header {
+		height: 92px;
+	}
+
+	.sticky-header .container {
+		justify-content: flex-start;
+	}
+
+	.sticky-header .container > a,
+	.sticky-header .container > div {
+		margin-right: 4em;
+	}
+
+	.sticky-header .container > a > img {
+		width: 76px;
+		height: 54px;
+	}
+
+	.sticky-header .text {
+		display: block;
+		font-family: Montserrat;
+		font-size: 30px;
+		font-weight: 300;
+	}
+
+	.sticky-header .text span:nth-child(1) {
+		font-weight: 700;
+	}
+
+	.sticky-header .text span:nth-child(2) {
+		font-weight: 700;
+		font-size: 16px;
+	}
+
+	.sticky-header .container {
+		display: flex;
+		justify-content: flex-start;
+	}
+}

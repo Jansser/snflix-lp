@@ -97,6 +97,14 @@ a {
 	background: linear-gradient(#457c1d, #457c1d);
 }
 
+.small-button {
+	width: 209px;
+	height: 38px;
+
+	font-size: 12px;
+	line-height: 14px;
+}
+
 /* TYPO */
 .blue-text {
 	color: rgb(99, 143, 241);
@@ -107,6 +115,14 @@ a {
 		width: 397px;
 		height: 92px;
 		font-size: 26px;
+	}
+
+	.small-button {
+		width: 331px;
+		height: 53px;
+
+		font-size: 20px;
+		line-height: 24px;
 	}
 }
 
