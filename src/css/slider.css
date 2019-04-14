@@ -1,5 +1,5 @@
 .slide-container {
-	width: 70vw;
+	width: 100vw;
 }
 
 .slide-container input[type="radio"] {
@@ -148,24 +148,28 @@
 		padding: 0 2%;
 	}
 
-	.control {
-		position: absolute;
-		top: 60%;
-		margin-top: -24px;
-		z-index: 55;
+	.next,
+	.previous {
+		top: 100%;
+	}
+
+	.next {
+		right: 40%;
+	}
+
+	.previous {
+		left: 40%;
 	}
 
 	.control label svg {
 		width: 32px;
 		height: 32px;
-		fill: #fff;
-		stroke: currentColor;
-		stroke-width: 0;
 	}
 }
 
 @media only screen and (min-width: 600px) {
 	.slide-container {
+		width: 70vw;
 		height: 199px;
 	}
 }
