@@ -60,17 +60,6 @@
 	font-weight: 300;
 }
 
-.slick-slider {
-	background-color: aqua;
-	min-width: 0;
-	min-height: 200px;
-	max-width: 100%;
-}
-
-.slick-slider button::before {
-	color: black;
-}
-
 .professor {
 	display: flex;
 	flex-direction: column;
@@ -85,26 +74,10 @@
 }
 
 .professor-title {
-	line-height: 22px;
 	text-align: center;
 	font-size: 12px;
 	color: rgb(109, 109, 109);
 	font-weight: 300;
-}
-
-@media only screen and (max-width: 600px) {
-	.slick-next,
-	.slick-prev {
-		top: 110%;
-	}
-
-	.slick-prev {
-		left: 40%;
-	}
-
-	.slick-next {
-		right: 40%;
-	}
 }
 
 @media only screen and (min-width: 600px) {

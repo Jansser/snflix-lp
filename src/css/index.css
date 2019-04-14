@@ -205,3 +205,14 @@ a {
 		opacity: 1;
 	}
 }
+
+.bg-middle-page {
+	background: linear-gradient(#fff, #e6e6e6);
+}
+
+@media only screen and (max-width: 480px),
+	only screen and (max-device-width: 480px) {
+	* {
+		-webkit-text-size-adjust: 98%;
+	}
+}
