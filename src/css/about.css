@@ -1,0 +1,70 @@
+.about {
+	background-color: rgba(38, 85, 219, 1);
+	color: white;
+	font-family: Raleway;
+}
+
+.about .container {
+	padding: 3em;
+	position: relative;
+}
+
+.about .button {
+	width: 100%;
+}
+
+.about img {
+	width: 122px;
+	height: 43px;
+}
+
+.about-title {
+	width: 424px;
+	transform: scale(0.62);
+	transform-origin: 0;
+}
+
+.about-title p {
+	line-height: 43px;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.about-subtitle {
+	width: 364px;
+	padding-top: 1.2em;
+}
+
+.about-subtitle p {
+	line-height: 26px;
+	font-size: 26px;
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 600px) {
+	.about {
+		padding: 2em;
+		height: 340px;
+	}
+
+	.about img {
+		width: 275px;
+		height: 97px;
+		position: absolute;
+		top: 1em;
+		right: 0;
+	}
+
+	.about-title {
+		width: 424px;
+		transform: none;
+		transform-origin: none;
+	}
+
+	.about .button {
+		position: absolute;
+		right: 0;
+		bottom: 1em;
+		width: 397px;
+	}
+}

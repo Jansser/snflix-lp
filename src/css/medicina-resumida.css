@@ -1,0 +1,63 @@
+.medicina-resumida {
+	position: relative;
+	font-family: Raleway;
+	color: rgb(149, 149, 149);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 414px;
+}
+
+.medicina-resumida-logo {
+	width: 133px;
+	height: 112px;
+}
+
+.medicina-resumida-text {
+	width: 324px;
+	height: 70px;
+	font-size: 22px;
+	transform: scale(0.75);
+	text-align: center;
+	line-height: 24px;
+}
+
+.medicina-resumida-text span:nth-child(1) {
+	font-weight: 300;
+}
+
+.medicina-resumida-text span:nth-child(2) {
+	font-weight: 900;
+}
+
+.medicina-resumida-photo {
+	align-self: flex-start;
+}
+
+@media only screen and (min-width: 600px) {
+	.medicina-resumida {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		height: auto;
+	}
+
+	.medicina-resumida-photo {
+		width: 600px;
+		height: 400px;
+		order: 1;
+		margin-right: 200px;
+	}
+
+	.medicina-resumida-logo {
+		width: 211px;
+		height: 175px;
+		order: 2;
+	}
+
+	.medicina-resumida-text {
+		order: 3;
+		transform: none;
+	}
+}

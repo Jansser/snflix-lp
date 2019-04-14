@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.08" stop-color="#a52c41"/>
+      <stop offset="1" stop-color="#600f30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.69" y1="0.75" x2="0.15" y2="0.172" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3cb8f"/>
+      <stop offset="0.9" stop-color="#f5ecd8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-2.735" y1="-1.665" x2="-2.745" y2="-1.655" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3cb8f"/>
+      <stop offset="1" stop-color="#f5ecd8"/>
+    </linearGradient>
+  </defs>
+  <g id="arcticle" transform="translate(-189 -522.382)">
+    <g id="icons" transform="translate(189 522.382)">
+      <g id="arcticle-2" data-name="arcticle">
+        <rect id="Rectangle_1944" data-name="Rectangle 1944" class="cls-1" width="56" height="56"/>
+        <path id="Path_1201" data-name="Path 1201" class="cls-2" d="M217.889,141.571v19.05a3.974,3.974,0,0,1-2.61,3.72,3.957,3.957,0,0,1-3.617,2.352h-17.7A3.969,3.969,0,0,1,190,162.734V136.072a3.974,3.974,0,0,1,2.61-3.72A3.957,3.957,0,0,1,196.227,130h13.011a9.554,9.554,0,0,1,1.379.1,9.163,9.163,0,0,1,5.08,2.472,7.022,7.022,0,0,1,1.622,2.506C218.129,137.183,217.889,139.376,217.889,141.571Z" transform="translate(-175.944 -120.383)"/>
+        <path id="Path_1202" data-name="Path 1202" class="cls-3" d="M236.287,144.815l-1.349,3.136h2.7ZM244.955,139H232.964A3.975,3.975,0,0,0,229,142.964V168.4a3.975,3.975,0,0,0,3.964,3.964h16.485a3.976,3.976,0,0,0,3.964-3.964V147.457A8.481,8.481,0,0,0,244.955,139Zm-12.33,11.161,3.006-6.648a.374.374,0,0,1,.34-.222h.62a.374.374,0,0,1,.34.222l3.009,6.65a.37.37,0,0,1-.34.527h-.562a.374.374,0,0,1-.343-.226l-.635-1.478h-3.537l-.635,1.48a.374.374,0,0,1-.343.226h-.583a.37.37,0,0,1-.337-.531ZM245.5,165.654a.421.421,0,0,1-.421.421h-7.961a.421.421,0,0,1-.421-.421v-.416a.421.421,0,0,1,.421-.421h7.961a.421.421,0,0,1,.421.421Zm4.587-4.217a.42.42,0,0,1-.42.42H232.6a.42.42,0,0,1-.42-.42v-.417a.42.42,0,0,1,.42-.42h17.062a.42.42,0,0,1,.42.42Zm0-4.217a.42.42,0,0,1-.42.42H232.6a.42.42,0,0,1-.42-.42V156.8a.42.42,0,0,1,.42-.42h17.062a.42.42,0,0,1,.42.42Zm.074-4.291a.42.42,0,0,1-.42.42H232.675a.42.42,0,0,1-.42-.42v-.417a.42.42,0,0,1,.42-.42h17.062a.42.42,0,0,1,.42.42Zm0-4.66a.421.421,0,0,1-.421.421h-7.444a.421.421,0,0,1-.421-.421v-.416a.421.421,0,0,1,.421-.421h7.444a.421.421,0,0,1,.421.421Z" transform="translate(-212.059 -128.717)"/>
+        <path id="Path_1203" data-name="Path 1203" class="cls-4" d="M457.991,146.37h0a7.7,7.7,0,0,1-8-7.62h0C454.838,138.814,457.684,141.733,457.991,146.37Z" transform="translate(-416.701 -128.486)"/>
+      </g>
+    </g>
+  </g>
+</svg>
