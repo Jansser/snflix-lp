@@ -61,3 +61,30 @@
 		transform: none;
 	}
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.medicina-resumida {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		height: auto;
+	}
+
+	.medicina-resumida-photo {
+		width: 600px;
+		height: 400px;
+		order: 3;
+		margin-right: 200px;
+	}
+
+	.medicina-resumida-logo {
+		width: 211px;
+		height: 175px;
+		order: 1;
+	}
+
+	.medicina-resumida-text {
+		order: 2;
+		transform: none;
+	}
+}

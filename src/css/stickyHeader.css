@@ -72,3 +72,9 @@
 		justify-content: flex-start;
 	}
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.sticky-header .text {
+		display: none;
+	}
+}

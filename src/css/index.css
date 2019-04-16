@@ -152,6 +152,7 @@ a {
 @media only screen and (min-width: 600px) {
 	.container {
 		width: 1350px;
+		max-width: 100%;
 		margin: 0 auto;
 	}
 
@@ -214,5 +215,26 @@ a {
 	only screen and (max-device-width: 480px) {
 	* {
 		-webkit-text-size-adjust: 98%;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		width: 283px;
+		height: 76px;
+
+		font-size: 20px;
+		line-height: 31px;
+		font-weight: 500;
+	}
+
+	.button-warning-message {
+		line-height: 20px;
+		text-align: center;
+		transform: scale(0.81);
 	}
 }

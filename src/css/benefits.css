@@ -132,3 +132,19 @@
 		padding-bottom: 1em;
 	}
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.benefits {
+		height: auto;
+		min-height: 600px;
+	}
+
+	.benefits-list {
+		min-height: 600px;
+		display: flex;
+		max-width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

@@ -196,3 +196,10 @@
 .control {
 	animation-name: pulse;
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	.slide-container {
+		width: 100vw;
+		height: 40vw;
+	}
+}
