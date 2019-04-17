@@ -67,7 +67,7 @@ main > div {
 	display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	.button {
 		width: 397px;
 		height: 92px;
@@ -97,7 +97,7 @@ main > div {
 	cursor: pointer;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	main {
 		background-color: #e89513;
 		background-repeat: no-repeat;
@@ -109,6 +109,7 @@ main > div {
 
 	main > div {
 		width: 1350px;
+		max-width: 100%;
 		margin: 0 auto;
 		flex-direction: column;
 		justify-content: space-between;

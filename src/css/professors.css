@@ -80,7 +80,7 @@
 	font-weight: 300;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	.selo-usp {
 		width: 249px;
 		height: 269px;
@@ -120,5 +120,28 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
 	.professors .container {
 		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.professors .img-container {
+		margin: 0 auto;
+	}
+
+	.professors-title {
+		transform: none;
+	}
+
+	.professors-subtitle {
+		transform: none;
+		margin: 1em auto;
+	}
+
+	.professors-section-info {
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		justify-content: center;
+		align-items: flex-start;
 	}
 }

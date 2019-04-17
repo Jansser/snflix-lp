@@ -31,7 +31,7 @@
 	font-weight: 700;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	.benefits-title-container {
 		transform: none;
 		transform-origin: none;
@@ -76,9 +76,10 @@
 }
 
 .benefit-description-container {
-	width: 246px;
+	/* width: 246px; */
 	transform: scale(0.76);
 	transform-origin: 0 0;
+	max-width: 220px;
 }
 
 .benefit-description {
@@ -87,7 +88,7 @@
 	line-height: 18px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	.benfit-image-container {
 		min-width: 150px;
 		min-height: 150px;

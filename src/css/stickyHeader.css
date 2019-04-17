@@ -32,7 +32,7 @@
 	margin-right: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	.sticky-header {
 		height: 92px;
 	}

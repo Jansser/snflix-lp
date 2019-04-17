@@ -97,7 +97,7 @@
 	color: rgb(149, 149, 149);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 601px) {
 	.testimony {
 		width: 270px;
 		height: 450px;
