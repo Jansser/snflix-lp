@@ -5,8 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"deploy": "gulp && surge ./dist snflix-newlp2.surge.sh",
-		"dev": "cd src && lite-server"
+		"prod": "gulp && surge ./dist snflix-newlp2.surge.sh",
+		"dev": "cd src && lite-server",
+		"build": "gulp && cd dist && lite-server"
 	},
 	"author": "",
 	"license": "ISC",
