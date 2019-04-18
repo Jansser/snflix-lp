@@ -141,7 +141,7 @@
 	.photo_slider {
 		position: relative;
 		width: 100%;
-		height: 400px;
+		height: 450px;
 	}
 
 	.slider > div {
@@ -150,7 +150,7 @@
 
 	.next,
 	.previous {
-		top: 100%;
+		top: 98%;
 	}
 
 	.next {
