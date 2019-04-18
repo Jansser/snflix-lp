@@ -36,10 +36,14 @@
 
 .plan-feature {
 	width: 100%;
+	margin-bottom: 0.7em;
+}
+
+.plan-feature h2 {
+	display: inline-block;
 	font-weight: 300;
 	line-height: 26px;
 	font-size: 18px;
-	margin-bottom: 0.7em;
 }
 
 .plan-feature img {
