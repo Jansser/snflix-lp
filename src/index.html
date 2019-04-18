@@ -16,23 +16,10 @@
 		<link rel="shortcut icon" href="../images/favicon.png">
 		<title>SanarFlix: Assine aqui!</title>
 
-		<!-- build:css css/main.css -->
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<link rel="stylesheet" type="text/css" href="css/stickyHeader.css" />
-		<link rel="stylesheet" type="text/css" href="css/benefits.css" />
-		<!-- endbuild -->
-
-		<!-- build:css css/sections.css -->
-		<link rel="stylesheet" type="text/css" href="css/professors.css" />
-		<link rel="stylesheet" type="text/css" href="css/testimonials.css" />
-		<link rel="stylesheet" type="text/css" href="css/slider.css" />
-		<link rel="stylesheet" type="text/css" href="css/medicina-resumida.css" />
-		<link rel="stylesheet" type="text/css" href="css/plans.css" />
-		<link rel="stylesheet" type="text/css" href="css/about.css" />
-		<link rel="stylesheet" type="text/css" href="css/faq.css" />
-		<link rel="stylesheet" type="text/css" href="css/footer.css" />
-		<!-- endbuild -->
+		<link rel="stylesheet" type="text/css" href="css/main.css"  inline>
+		<link rel="stylesheet" type="text/css" href="css/stickyHeader.css" inline>
+		<link rel="stylesheet" type="text/css" href="css/index.css" inline>
+		<link rel="stylesheet" type="text/css" href="css/benefits.css" inline>
 
 		<link rel="preconnect" href="https://www.googletagmanager.com"/>
 		<link rel="preconnect" href="https://www.google-analytics.com"/>
@@ -86,6 +73,9 @@
 						format("woff");
 				font-display: swap;
 			}
+			
+		</style>
+		<style async>
 			@font-face {
 				font-family: Raleway;
 				font-style: normal;
@@ -129,7 +119,7 @@
 			}
 		</style>
 		<!-- Google Tag Manager -->
-		<script defer>
+		<script>
 			(function(w, d, s, l, i) {
 				w[l] = w[l] || [];
 				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -1006,6 +996,16 @@
 				</p>
 			</div>
 		</footer>
+		<!-- build:css css/sections.css async -->
+		<link rel="stylesheet" type="text/css" href="css/professors.css" />
+		<link rel="stylesheet" type="text/css" href="css/testimonials.css" />
+		<link rel="stylesheet" type="text/css" href="css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="css/medicina-resumida.css" />
+		<link rel="stylesheet" type="text/css" href="css/plans.css" />
+		<link rel="stylesheet" type="text/css" href="css/about.css" />
+		<link rel="stylesheet" type="text/css" href="css/faq.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<!-- endbuild -->
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe

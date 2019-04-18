@@ -1,7 +1,15 @@
 const gulp = require("gulp");
+const inlinesource = require("gulp-inline-source");
 
 const $ = require("gulp-load-plugins")({
 	rename: { "gulp-rev-delete-original": "revdel", "gulp-if": "if" },
+});
+
+gulp.task("inline-code", function() {
+	return gulp
+		.src("index.html")
+		.pipe(inlinesource())
+		.pipe(gulp.dest("dist/"));
 });
 
 gulp.task("copy", function() {
@@ -95,7 +103,11 @@ gulp.task("minify", ["minify-js", "minify-css", "minify-html"]);
 
 gulp.task(
 	"build",
-	$.sequence(["minify-js", "minify-css", "imagemin"], "useref", "revreplace"),
+	$.sequence(
+		["minify-js", "minify-css", "inline-code", "imagemin"],
+		"useref",
+		"revreplace",
+	),
 );
 
 gulp.task("default", $.sequence("clean", "copy", "build"));
