@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"prod": "gulp && surge ./dist snflix-newlp2.surge.sh",
+		"prod": "gulp && surge ./dist snflix-newlp-assine.surge.sh",
 		"dev": "cd src && lite-server",
 		"build": "gulp && cd dist && lite-server"
 	},
