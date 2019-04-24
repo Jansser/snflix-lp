@@ -110,7 +110,7 @@
 				<div class="button-container">
 					<a
 						class="small-button button"
-						href="https://www.sanarflix.com.br/assine/clkg/https/www.sanarflix.com.br/checkout/"
+						href="https://www.sanarflix.com.br/checkout/"
 						target="_self"
 					>
 						<strong>Experimente por 7 dias!</strong>
@@ -121,18 +121,15 @@
 		
 		<main
 			id="main-section"
-			class="lazy"
-			data-bg="url(images/tami-bg-desktop-min.jpg)"
 		>
 			<div class="color-overlay-effect"></div>
 
 			<div>
 				<a href="https://www.sanarflix.com.br" target="_self">
 					<img
-						class="lazy"
 						alt=""
 						class="logo"
-						data-src="../images/sanarflix-vertical.svg"
+						src="../images/sanarflix-vertical.svg"
 					/>
 				</a>
 
@@ -166,7 +163,7 @@
 				<div class="button-container">
 					<a
 						class="button"
-						href="https://www.sanarflix.com.br/assine/clkg/https/www.sanarflix.com.br/checkout/"
+						href="https://www.sanarflix.com.br/checkout/"
 						target="_self"
 					>
 						<strong>Experimente por 7 dias!</strong>
@@ -748,7 +745,7 @@
 					<div class="button-container">
 						<a
 							class="button"
-							href="https://www.sanarflix.com.br/assine/clkg/https/www.sanarflix.com.br/checkout/"
+							href="https://www.sanarflix.com.br/checkout/"
 							target="_self"
 						>
 							<strong>Experimente por 7 dias!</strong>
@@ -871,7 +868,7 @@
 				</div>
 				<a
 					class="button green-button"
-					href="https://www.sanarflix.com.br/assine/clkg/https/www.sanarflix.com.br/checkout/"
+					href="https://www.sanarflix.com.br/checkout/"
 					target="_self"
 				>
 					<strong>Experimente por 7 dias!</strong>
@@ -1022,17 +1019,7 @@
 			src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"
 		></script>
 		<script async>
-			window.onload = function() {
-			var width = window.innerWidth;
-
-			if (width < 600) {
-				document.getElementById("main-section").dataset.bg =
-					"url(images/tami-bg-mobile.png)";
-			} else {
-				document.getElementById("bg-plan-section").dataset.bg =
-					"url(images/vicente-bg-min.jpg)";
-			}
-
+		window.onload = function() {
 			lazyLoadInstance = new LazyLoad({
 				elements_selector: ".lazy",
 			});

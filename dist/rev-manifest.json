@@ -5,7 +5,7 @@
   "css/fonts.css": "css/fonts-d41d8cd98f.css",
   "css/footer.css": "css/footer-e54f0d45ee.css",
   "css/index.css": "css/index-0a69450ce7.css",
-  "css/main.css": "css/main-72130f5484.css",
+  "css/main.css": "css/main-d2fa82a08c.css",
   "css/medicina-resumida.css": "css/medicina-resumida-c3d39b384d.css",
   "css/plans.css": "css/plans-e8446642ed.css",
   "css/professors.css": "css/professors-f5fc0bb7cf.css",
@@ -46,8 +46,8 @@
   "images/sanarflix-logo-II.png": "images/sanarflix-logo-II-12559c00dd.png",
   "images/sanarflix-vertical.svg": "images/sanarflix-vertical-3e8ed76d21.svg",
   "images/selo-usp.png": "images/selo-usp-e716e4b1a3.png",
-  "images/tami-bg-desktop-min.jpg": "images/tami-bg-desktop-min-b7803607b1.jpg",
-  "images/tami-bg-mobile.png": "images/tami-bg-mobile-453961128d.png",
+  "images/tami-bg-desktop-min.jpg": "images/tami-bg-desktop-min-763b14a6f4.jpg",
+  "images/tami-bg-mobile.png": "images/tami-bg-mobile-40a6204996.png",
   "images/testimony_01_1x.png": "images/testimony_01_1x-77604614bd.png",
   "images/testimony_01_2x.png": "images/testimony_01_2x-04082a6cab.png",
   "images/testimony_02.png": "images/testimony_02-0cb67fa4ae.png",
@@ -55,7 +55,5 @@
   "images/testimony_04.png": "images/testimony_04-ded1359696.png",
   "images/vicente-bg-min.jpg": "images/vicente-bg-min-ba98a408e3.jpg",
   "images/vicente-bg.jpg": "images/vicente-bg-4888d16255.jpg",
-  "images/youtube.png": "images/youtube-28594fd4b1.png",
-  "js/landbot-2.2.0.js": "js/landbot-2-54c9a40212.2.0.js",
-  "js/landbot-widget-1.0.0.js": "js/landbot-widget-1-53c2684dd0.0.0.js"
+  "images/youtube.png": "images/youtube-28594fd4b1.png"
 }

@@ -10,6 +10,7 @@ main {
 	padding-top: 1.7em;
 	padding-bottom: 4.5em;
 
+	background-image: url("../images/tami-bg-mobile.png");
 	background: rgba(0, 0, 0, 0.64);
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -99,6 +100,7 @@ main > div {
 
 @media only screen and (min-width: 601px) {
 	main {
+		background-image: url("../images/tami-bg-desktop-min.jpg");
 		background-color: #e89513;
 		background-repeat: no-repeat;
 		background-position: left center;
