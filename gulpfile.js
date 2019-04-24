@@ -13,7 +13,9 @@ gulp.task("inline-code", function() {
 });
 
 gulp.task("copy", function() {
-	return gulp.src(["src/{images,fonts}/**/*"]).pipe(gulp.dest("dist"));
+	return gulp
+		.src(["src/{images,fonts}/**/*", "src/.htaccess"])
+		.pipe(gulp.dest("dist"));
 });
 
 gulp.task("clean", function() {
