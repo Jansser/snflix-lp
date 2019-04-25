@@ -94,6 +94,12 @@
 						format("woff");
 				font-display: swap;
 			}</style><!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPW3TWB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@11.0.6/dist/lazyload.min.js"></script><script async>window.onload = function() {
+			var width = window.innerWidth;	
+ 			
+			 if (width > 600) {	
+				document.getElementById("bg-plan-section").dataset.bg =	"url(images/vicente-bg-min-ba98a408e3.jpg)";	
+			}
+
 			lazyLoadInstance = new LazyLoad({
 				elements_selector: ".lazy",
 			});

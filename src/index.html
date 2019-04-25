@@ -1020,6 +1020,12 @@
 		></script>
 		<script async>
 		window.onload = function() {
+			var width = window.innerWidth;	
+ 			
+			 if (width > 600) {	
+				document.getElementById("bg-plan-section").dataset.bg =	"url(images/vicente-bg-min.jpg)";	
+			}
+
 			lazyLoadInstance = new LazyLoad({
 				elements_selector: ".lazy",
 			});
